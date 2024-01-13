@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(1, 1, 21);
+  }
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+  }
+  .container {
+    width: 849px;
+    height: 132px;
+    border-radius: 20px;
+    background-color: #34344a;
+    margin-left: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  p {
+    color: white;
+    font-size: 24px;
+  }
+  label{
+      color: white;
+      font-size:x-large;
+      font-weight: 700;
+  }
+  #hours {
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: transparent;
+    font-size: 24px;
+    border: none;
+    text-decoration: underline;
+  }
+  #minutes {
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: transparent;
+    font-size: 24px;
+    border: none;
+    text-decoration: underline;
+  }
+  #seconds {
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: transparent;
+    font-size: 24px;
+    border: none;
+    text-decoration: underline;
+  }
+  .btn {
+    width: 124px;
+    height: 52px;
+    border-radius: 26px;
+    background-color: #f0f757;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 600;
+  }
+  
+  .inProgress {
+    width: 413px;
+    height: 66px;
+    border-radius: 50px;
+    color: white;
+    background-color: #39393e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-bottom: 50px;
+  }
+  
+  .new {
+    width: 849px;
+    height: 132px;
+    border-radius: 20px;
+    background-color: #34344a;
+    margin-left: 320px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .new > span > p {
+    color: white;
+    font-size: 20px;
+  }
+  #time{
+      color: white;
+  }
+  #btn1{
+      width: 124px;
+      height: 52px;
+      border-radius: 26px;
+      background-color: #f0f757;
+      border: none;
+      cursor: pointer;
+      font-size: medium;
+      font-weight: 600;
+  }
+
+  #show{
+    text-align: center;
+  }
